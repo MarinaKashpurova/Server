@@ -1,0 +1,132 @@
+body {
+    font-family: 'Philosopher', sans-serif;
+    background: url(img/photos/background2.jpg) repeat;
+    color: #ebd9d6;
+}
+
+a:link {
+	color: #ebd9d6;
+	text-decoration: none;
+}
+
+a:visited {
+    color: #20030e;
+}
+
+a:hover{
+	color: white;
+}
+
+a.button:link{
+    background-color: #ebd9d6;
+    color: #20030e;
+    border: 1px solid #ebd9d6;
+    margin: 1% 0;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+a.button:hover{
+	border: 1px solid #643a33;
+    background-color: #643a33;
+    color: white;
+}
+
+.container {
+	width: 50%;
+    background: #5c2f2d;
+    margin: 0 auto;
+}
+
+.name {
+	font-family: 'Yeseva One', cursive;
+	padding-top: 1px;
+    font-size: 130%;
+    text-align: center;
+}
+
+.col {
+    display: block;
+    float: left;
+    margin: 1% 0 1% 1.6%;
+}
+
+.span_1_of_2 {
+    width: 49.2%;
+}
+
+
+.section {
+    clear: both;
+    padding: 20px;
+    margin: 0px;
+}
+
+.col:first-child {
+    margin-left: 0;
+}
+
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+
+img {
+    display: block;
+    margin: 0 auto;
+	max-width: 95%;
+    max-height: 95%;
+}
+
+.footer {
+    background: #5c2f2d;
+    text-align: left;
+    padding: 1px 10px;
+}
+
+.footer li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.footer li img{
+	width: 30px;
+	height: 30px;
+	
+}
+
+.visitors li{
+	
+	list-style-type: circle;
+	display: block;
+	
+}
+
+a.knopka {
+  color: #fff; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: rgb(212,75,56); /* фон кнопки */
+  padding: 1% 1% 0% 0% /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+} 
+a.knopka:hover { background: rgb(232,95,76); } /* при наведении курсора мышки */
+a.knopka:active { background: rgb(152,15,0); } /* при нажатии */
+
+
+@media only screen and (max-width: 768px) { 
+    .container { 
+        width: 100%; 
+    } 
+
+    .span_1_of_2 { 
+        width: 100%; 
+    } 
+	
+	.col {
+		display: block;
+		float: left;
+		margin: 1% 0 1% 0%;
+	}
+}
